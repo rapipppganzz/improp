@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "http://depay.lekowl.shop:5005/$1" }
+  ]
+}
