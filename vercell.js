@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 export default async function handler(req, res) {
-  const url = `http://depay.lekowl.shop:5014{req.url}`;
+  const url = `http://depay.lekowl.shop:5014`;
   const response = await fetch(url, {
     method: req.method,
     headers: req.headers,
